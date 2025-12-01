@@ -1,0 +1,158 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "title": "Motion Graphics Artist",
+    "tagline": "Bringing ideas to life through motion and design",
+    "heroDescription": "Crafting captivating visual stories with motion graphics, animation, and creative design."
+  },
+  "about": {
+    "bio": "A passionate motion graphics artist with expertise in creating compelling visual narratives. I specialize in transforming complex ideas into engaging animations that captivate audiences and elevate brands.",
+    "description": "With years of experience in motion design, I've worked across various industries creating everything from explainer videos to broadcast graphics. My work combines technical precision with creative storytelling to deliver results that exceed expectations.",
+    "expertise": [
+      "2D/3D Motion Graphics",
+      "Character Animation",
+      "Visual Effects",
+      "Brand Animation",
+      "Explainer Videos",
+      "Broadcast Design"
+    ]
+  },
+  "skills": [
+    {
+      "name": "After Effects",
+      "category": "2D Animation",
+      "proficiency": 95,
+      "icon": "⚡"
+    },
+    {
+      "name": "Cinema 4D",
+      "category": "3D Modeling",
+      "proficiency": 90,
+      "icon": "🎬"
+    },
+    {
+      "name": "Blender",
+      "category": "3D Animation",
+      "proficiency": 85,
+      "icon": "🔷"
+    },
+    {
+      "name": "Premiere Pro",
+      "category": "Video Editing",
+      "proficiency": 92,
+      "icon": "🎞️"
+    },
+    {
+      "name": "DaVinci Resolve",
+      "category": "Color Grading",
+      "proficiency": 80,
+      "icon": "🎨"
+    },
+    {
+      "name": "Illustrator",
+      "category": "Design",
+      "proficiency": 88,
+      "icon": "✏️"
+    },
+    {
+      "name": "Photoshop",
+      "category": "Design",
+      "proficiency": 90,
+      "icon": "🖼️"
+    },
+    {
+      "name": "Nuke",
+      "category": "Compositing",
+      "proficiency": 75,
+      "icon": "💥"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Brand Animation Reel",
+      "description": "Dynamic logo animations and brand identity sequences for various clients.",
+      "thumbnail": "assets/projects/project1.jpg",
+      "videoUrl": "https://vimeo.com/your-video-id",
+      "tags": ["Branding", "2D Animation", "After Effects"],
+      "year": 2024
+    },
+    {
+      "id": 2,
+      "title": "Product Explainer",
+      "description": "Engaging 3D product visualization and explainer animation for tech startup.",
+      "thumbnail": "assets/projects/project2.jpg",
+      "videoUrl": "https://vimeo.com/your-video-id",
+      "tags": ["3D Animation", "Product", "Cinema 4D"],
+      "year": 2024
+    },
+    {
+      "id": 3,
+      "title": "Abstract Motion Piece",
+      "description": "Experimental motion graphics exploring form, color, and movement.",
+      "thumbnail": "assets/projects/project3.jpg",
+      "videoUrl": "https://vimeo.com/your-video-id",
+      "tags": ["Experimental", "Abstract", "Blender"],
+      "year": 2023
+    },
+    {
+      "id": 4,
+      "title": "Social Media Campaign",
+      "description": "Series of short-form content for Instagram and TikTok marketing campaign.",
+      "thumbnail": "assets/projects/project4.jpg",
+      "videoUrl": "https://vimeo.com/your-video-id",
+      "tags": ["Social Media", "Short Form", "After Effects"],
+      "year": 2023
+    },
+    {
+      "id": 5,
+      "title": "Broadcast Package",
+      "description": "Complete broadcast graphics package including lower thirds, transitions, and title sequences.",
+      "thumbnail": "assets/projects/project5.jpg",
+      "videoUrl": "https://vimeo.com/your-video-id",
+      "tags": ["Broadcast", "Graphics Package", "After Effects"],
+      "year": 2023
+    },
+    {
+      "id": 6,
+      "title": "Character Animation",
+      "description": "Character design and animation for educational video series.",
+      "thumbnail": "assets/projects/project6.jpg",
+      "videoUrl": "https://vimeo.com/your-video-id",
+      "tags": ["Character", "Education", "2D Animation"],
+      "year": 2022
+    }
+  ],
+  "contact": {
+    "email": "your.email@example.com",
+    "location": "Your City, Country",
+    "availability": "Available for freelance projects",
+    "social": [
+      {
+        "platform": "Behance",
+        "url": "https://behance.net/yourusername",
+        "icon": "🎨"
+      },
+      {
+        "platform": "Vimeo",
+        "url": "https://vimeo.com/yourusername",
+        "icon": "▶️"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/yourusername",
+        "icon": "📸"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/yourusername",
+        "icon": "💼"
+      },
+      {
+        "platform": "Dribbble",
+        "url": "https://dribbble.com/yourusername",
+        "icon": "🏀"
+      }
+    ]
+  }
+}
