@@ -22,4 +22,4 @@ fi
 
 # Run the application
 echo "Starting Portfolio Manager..."
-python3 gui_manager.py
+./venv/bin/python3 gui_app.py

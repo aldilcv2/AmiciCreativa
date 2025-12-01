@@ -13,7 +13,7 @@ if %errorlevel% neq 0 (
 )
 
 :: Run the application
-python gui_manager.py
+venv\Scripts\python.exe gui_app.py
 
 if %errorlevel% neq 0 (
     echo.

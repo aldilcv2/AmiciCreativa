@@ -1,16 +1,16 @@
 {
   "config": {
     "theme": {
-      "primaryColor": "#1e3a8a",
-      "secondaryColor": "#F3F4F6",
-      "backgroundColor": "#9bbee9",
+      "primaryColor": "#2644c8",
+      "secondaryColor": "#c4c3cc",
+      "backgroundColor": "#ffffff",
       "textColor": "#111827",
       "fontHeading": "Poppins",
       "fontBody": "Inter"
     },
     "logo": {
       "type": "image",
-      "content": "assets/WhatsApp Image 2025-12-01 at 22.56.55.jpeg"
+      "content": "assets/Asset 16.png"
     }
   },
   "personal": {
@@ -130,11 +130,23 @@
         "2D Animation"
       ],
       "year": 2022
+    },
+    {
+      "id": 7,
+      "title": "Prototype 1",
+      "description": "Ini ada Vidio Percobaan untuk Websitw ini",
+      "thumbnail": "",
+      "videoUrl": "assets/videos/WhatsApp Video 2025-12-02 at 00.14.58.mp4",
+      "tags": [
+        "Logo",
+        "Motion"
+      ],
+      "year": "2025"
     }
   ],
   "contact": {
-    "email": "your.email@example.com",
-    "location": "Your City, Country",
+    "email": "amicicreativa@gmail.com",
+    "location": "Malang City, East Java",
     "availability": "Available for freelance projects",
     "social": [
       {
