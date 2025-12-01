@@ -345,7 +345,7 @@ class PortfolioApp(QMainWindow):
         layout.addWidget(self.skill_editor, 2)
         
         self.refresh_skills_list()
-        self.tabs.addTab(tab, "Skills")
+        self.tabs.addTab(tab, "Tools")
         
     def refresh_skills_list(self):
         self.skills_list_widget.clear()

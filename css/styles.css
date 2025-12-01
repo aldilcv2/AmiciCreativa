@@ -545,16 +545,16 @@ ul {
 }
 
 /* ========================================
-   SKILLS SECTION
+   TOOLS SECTION
    ======================================== */
 
-.skills-grid {
+.tools-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--spacing-lg);
 }
 
-.skill-card {
+.tool-card {
     background: var(--color-white);
     padding: var(--spacing-xl);
     border-radius: var(--radius-xl);
@@ -565,7 +565,7 @@ ul {
     overflow: hidden;
 }
 
-.skill-card::before {
+.tool-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -577,39 +577,39 @@ ul {
     transition: transform var(--transition-base);
 }
 
-.skill-card:hover {
+.tool-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-xl);
     border-color: var(--color-dark-blue);
 }
 
-.skill-card:hover::before {
+.tool-card:hover::before {
     transform: scaleX(1);
 }
 
-.skill-header {
+.tool-header {
     display: flex;
     align-items: center;
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-md);
 }
 
-.skill-icon {
+.tool-icon {
     font-size: var(--text-4xl);
 }
 
-.skill-info h3 {
+.tool-info h3 {
     font-size: var(--text-xl);
     color: var(--color-dark);
     margin-bottom: var(--spacing-xs);
 }
 
-.skill-category {
+.tool-category {
     font-size: var(--text-sm);
     color: var(--color-gray-text);
 }
 
-.skill-progress {
+.tool-progress {
     margin-top: var(--spacing-md);
 }
 
@@ -636,7 +636,7 @@ ul {
     width: 0;
 }
 
-.skill-card:hover .progress-bar {
+.tool-card:hover .progress-bar {
     animation: pulse 2s ease-in-out infinite;
 }
 

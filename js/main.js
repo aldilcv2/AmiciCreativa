@@ -102,22 +102,22 @@ function populateContent() {
         expertiseGrid.appendChild(card);
     });
 
-    // Skills Section
-    const skillsGrid = document.getElementById('skills-grid');
-    skillsGrid.innerHTML = '';
+    // Tools Section
+    const toolsGrid = document.getElementById('tools-grid');
+    toolsGrid.innerHTML = '';
     portfolioData.skills.forEach((skill, index) => {
         const card = document.createElement('div');
-        card.className = 'skill-card fade-in-up';
+        card.className = 'tool-card fade-in-up';
         card.style.animationDelay = `${index * 0.1}s`;
         card.innerHTML = `
-            <div class="skill-header">
-                <div class="skill-icon">${skill.icon}</div>
-                <div class="skill-info">
+            <div class="tool-header">
+                <div class="tool-icon">${skill.icon}</div>
+                <div class="tool-info">
                     <h3>${skill.name}</h3>
-                    <p class="skill-category">${skill.category}</p>
+                    <p class="tool-category">${skill.category}</p>
                 </div>
             </div>
-            <div class="skill-progress">
+            <div class="tool-progress">
                 <div class="progress-label">
                     <span>Proficiency</span>
                     <span>${skill.proficiency}%</span>
@@ -127,7 +127,7 @@ function populateContent() {
                 </div>
             </div>
         `;
-        skillsGrid.appendChild(card);
+        toolsGrid.appendChild(card);
     });
 
     // Projects Section
@@ -284,8 +284,8 @@ function initializeAnimations() {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
 
-                // Animate progress bars when skills section is visible
-                if (entry.target.classList.contains('skill-card')) {
+                // Animate progress bars when tools section is visible
+                if (entry.target.classList.contains('tool-card')) {
                     const progressBar = entry.target.querySelector('.progress-bar');
                     if (progressBar) {
                         const progress = progressBar.getAttribute('data-progress');
